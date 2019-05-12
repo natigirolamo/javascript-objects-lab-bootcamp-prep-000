@@ -3,4 +3,5 @@ describe('Objects', function() {
     expect(typeof recipes).toEqual('object')
   })
 
-var recipes 
+var recipes {};
+function 
