@@ -26,7 +26,8 @@ return object
   })
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
-  object 
+  object [key] = value
+  return object 
 }
 
 
