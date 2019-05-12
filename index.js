@@ -1,7 +1,7 @@
 
 var recipes {};
 function updateObjectWithKeyAndValue(object, key, value){
-return object.assign({key}, { chocolate: '1 cup', flour: '2 cups' }, { flour: '1/2 cup' })()
+return Object.assign({}, object, {[key]: value}
 
  describe('updateObjectWithKeyAndValue(object, key, value)', function() {
     it('returns an object with the orignal key value pairs and the new key value pair', function() {
